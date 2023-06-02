@@ -15,5 +15,4 @@ const newSchema = new mongoose.Schema({
 })
 
 const logincollection = mongoose.model("logincollection", newSchema)
-
-module.exports=logincollection
+module.exports=logincollection;
