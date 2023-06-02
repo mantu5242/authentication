@@ -1,0 +1,52 @@
+.logincontainer,.signupcontainer,{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homepage{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.login{
+  height: 302px;
+  width: 270px;
+  border: 1px solid black;
+  text-align: center;
+}
+.signup{
+  height: 363px;
+  width: 270px;
+  border: 1px solid black;
+  text-align: center;
+  box-shadow:5cqmax
+}
+.input{
+  margin: 6px 10px 10px;
+  height: 22px;
+  width: 221px;
+}
+
+.button{
+  height: 22px;
+  width: 229px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(133, 133, 247);
+  color: white;
+  border-radius: 3px;
+}
+.linkitem{
+  text-decoration: none;
+  color: white;
+}
+.homebody{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
+}
