@@ -5,8 +5,12 @@ import Home from './pages/home';
 import Login from './pages/login';
 import Signup from './pages/Signup';
 import "../src/App.css";
+import "particles.js/particles";
+// import "../src/particlesjs-config.json";
 
 function App() {
+  // window.particlesJS.load("particles","/particlesjs-config.json")
+
   let [LoggedIn,setLoggedIn] = useState(false)
 
 
@@ -44,6 +48,7 @@ function App() {
 
   return (
     <div className='App'>
+      <div id="particles">
       <Router>
         <Routes>
           <Route exact path="/" element={LoggedIn ? <Home  onLogin={handleLogin} /> : <Login onLogin={handleLogin} />}/>
@@ -54,6 +59,8 @@ function App() {
           
         </Routes>
       </Router>
+      </div>
+        
     </div>
   );
 }
